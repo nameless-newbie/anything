@@ -27,7 +27,7 @@ clear;clear;clear
 
 # // Banner
 echo -e "${BIBlue}╭══════════════════════════════════════════════════════╮${NC}"
-echo -e "${BIBlue}│    ${BIWhite} PREMIUM AUTOSCRIPT BY KUZAVPN      ${BIBlue} │${NC}"
+echo -e "${BIBlue}│ ${BIWhite} PREMIUM AUTOSCRIPT BY KUZAVPN          ${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════════════════╯${NC}"
 echo ""
 sleep 4
