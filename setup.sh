@@ -389,8 +389,8 @@ fi
 RAMMS=$(free -m | awk 'NR==2 {print $2}')
 MODEL2=$(cat /etc/os-release | grep -w PRETTY_NAME | head -n1 | sed 's/=//g' | sed 's/"//g' | sed 's/PRETTY_NAME//g')
 TIMES="10"
-CHATID="7673056681"
-KEY="7698714388:AAHnqvmbWfHsB-qtLUf6Nn76VgLHTIL5hfU"
+CHATID="-5241210702"
+KEY="8594722626:AAH5WWLdwWoINsSm19tR33WpfbSqooFWIxI"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
