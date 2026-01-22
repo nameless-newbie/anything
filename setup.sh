@@ -27,7 +27,7 @@ clear;clear;clear
 
 # // Banner
 echo -e "${BIBlue}╭══════════════════════════════════════════════════════╮${NC}"
-echo -e "${BIBlue}│ ${BIWhite} PREMIUM AUTOSCRIPT BY KUZAVPN          ${BIBlue} │${NC}"
+echo -e "${BIBlue}│ ${BIWhite} PREMIUM AUTOSCRIPT BY KUZAVPN              ${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════════════════╯${NC}"
 echo ""
 sleep 4
@@ -1093,10 +1093,9 @@ clear
 print_install "Memasang Packet Menu"
 wget ${REPO}menu/menu.zip
 unzip menu.zip
-sed -i 's/\r//g' menu/*
-chmod +x menu/*
-mv menu/* /usr/local/sbin
-rm -rf menu
+sed -i 's/\r//g' *
+chmod +x *
+mv * /usr/local/sbin
 rm -rf menu.zip
 
 echo "lightcyan" > /etc/rmbl/theme/color.conf
